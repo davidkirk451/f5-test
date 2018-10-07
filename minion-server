@@ -1,0 +1,12 @@
+master: localhost
+file_client: local
+file_roots:
+  base:
+    - /srv/salt/base
+  virtustream:
+    - /srv/salt/virtustream
+pillar_roots:
+  base:
+    - /srv/pillar/base
+  virtustream:
+    - /srv/pillar/virtustream
