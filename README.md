@@ -1,4 +1,11 @@
 # f5-test
+## Git setup
+1. Install git.
+2. Clone or fork the repo.
+3. Update the apache submodule to pull in the forked apache formula:
+```bash
+git submodule update --init --recursive
+```
 ## BigIP Appliance Setup
 1. Register for a free trial account and licenses at https://downloads.f5.com/trial/.
 2. Download BIGIP-11.6.3.2.0.0.2.LTM_1SLOT-ide-updated.ova appliance image from
